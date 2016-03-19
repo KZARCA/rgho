@@ -1,0 +1,6 @@
+{
+  "name": "rgho",
+  "tagline": "Access WHO Global Health Observatory Data From R",
+  "body": "# rgho - Access WHO Global Health Observatory Data From R\r\n\r\n`rgho` is an `R` package to access WHO GHO data from R via the Athena web service, an API providing a simple query interface to the World Health Organization's data and statistics content.\r\n\r\nYou can install:\r\n\r\n  * the latest released version from CRAN with:\r\n\r\n```r\r\ninstall.packages(\"rgho\")\r\n```\r\n\r\n  * the latest development version from github with:\r\n\r\n```r\r\ndevtools::install_github(\"pierucci/rgho\")\r\n```\r\n\r\n## Main features\r\n\r\n  * List available dimensions and codes with `get_gho_dimensions()` and `get_gho_codes()`.\r\n  * Download data with `get_gho_data()`.\r\n  \r\n## Documentation\r\n\r\n  * [Introduction](https://cran.r-project.org/web/packages/rgho/vignettes/intro.html).\r\n  * [List of GHO dimensions](https://cran.r-project.org/web/packages/rgho/vignettes/dimensions.html).\r\n  * [List of codes for the `GHO` dimension](https://cran.r-project.org/web/packages/rgho/vignettes/codes-gho.html).\r\n\r\n## Devs\r\n\r\n[Antoine Filipović-Pierucci](https://pierucci.github.io/), [Kevin Zarca](http://www.urc-eco.fr/Kevin-ZARCA,402).",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
